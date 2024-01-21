@@ -16,7 +16,8 @@ body{
     --color-secundario:#fff;
     --color-terciario:#04b5fb;
     --color-4:rgb(149, 155, 181);
-    --color-5: rgba(0, 0, 0, 0.788);
+    --color-5: #212529;
+    --color-6: #3e4246;
     
 }
 
@@ -193,3 +194,168 @@ nav{
   .card-list .card-item i{
     color: var(--color-secundario);
   }
+
+  /* AQUI COMIENZA EL FOOTER */
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: var(--color-5);
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: var(--color-secundario);
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: var(--color-terciario);
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+
+/* ICONOS DE TELEFONO, UBICACION Y MENSAJE */
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: var(--color-6);
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* ICONOS DE TELEFONO, UBICACION Y MENSAJE */
+
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 150%;
+  border: none;
+  outline: none;
+  background: var(--color-terciario);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 5px;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+.center h2{
+  color: var(--color-secundario);
+}
+
+.content .text{
+  color: var(--color-secundario);
+}
+
+.right h2{
+  color: var(--color-secundario);
+}
+
+.left h2{
+  color: var(--color-secundario);
+}
+
+.content p{
+  color: var(--color-secundario);
+}
+
+  /* AQUI TERMINA EL FOOTER */
