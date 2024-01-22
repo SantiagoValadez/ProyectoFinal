@@ -1,16 +1,32 @@
-
+:root{
+    --color-primario:#0f0f0f;
+    --color-secundario:#fff;
+    --color-terciario:#04b5fb;
+    --color-4:rgb(149, 155, 181);
+    --color-5: #212529;
+    --color-6: #3e4246;
+    --color-7: #575c61;  
+}
 
 .card{
     display: flex;
     margin: 0 auto;
     align-items: center;
-    width: 650px;
+    padding-top: 300px;
+    padding-bottom: 150px;
+    width: 1000px;
+    align-content: center;
 }
 
 .card .card-body h5{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .card .card-body span{
     margin: 0px 10px 0px 10px;
+    color: var(--color-6);
+}
+
+.card .row .col-md-4 img{
+    border-radius: 15px;
 }

@@ -27,7 +27,7 @@ body{
 nav{
     background: var(--color-primario);
     padding: 5px 40px;
-    opacity: .93;
+    opacity: .90;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -122,11 +122,17 @@ nav{
   /* BARRA DE NAVEGACION */
 
   /* CAROUSEL */
+
+  .carousel-inner .carousel-items img{
+    opacity: .1;
+  }
+  
   .carousel-inner img{
     width: 100%;
     height: 650px;
     object-fit: cover; /*Arqui se ajusta el carousel a un alto definido por el height anterior especificado*/
     background: linear-gradient(to bottom, grey);
+    opacity: .65;
   }
 
   .carousel-inner h4{
