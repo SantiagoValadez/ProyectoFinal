@@ -11,6 +11,7 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+/* COLORES */
 :root{
     --color-primario:#0f0f0f;
     --color-secundario:#fff;
@@ -18,13 +19,24 @@ body{
     --color-4:rgb(149, 155, 181);
     --color-5: #212529;
     --color-6: #3e4246;
-    
+    --color-7: #575c61;  
 }
+/* COLORES */
 
+/* BARAA DE NAVEGACION */
 nav{
     background: var(--color-primario);
     padding: 5px 40px;
+    opacity: .93;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
   }
+
+  ol, lu{
+    padding-left: 0rem !important;
+  }
+
   nav ul{
     list-style: none;
     display: flex;
@@ -107,11 +119,12 @@ nav{
       opacity: 0;
     }
   }
+  /* BARRA DE NAVEGACION */
 
   /* CAROUSEL */
   .carousel-inner img{
     width: 100%;
-    height: 500px;
+    height: 650px;
     object-fit: cover; /*Arqui se ajusta el carousel a un alto definido por el height anterior especificado*/
     background: linear-gradient(to bottom, grey);
   }
@@ -237,16 +250,20 @@ footer{
 .left .content p{
   text-align: justify;
 }
+
+/* ICONOS DE REDES SOCIALES */
 .left .content .social{
   margin: 20px 0 0 0;
 }
 .left .content .social a{
   padding: 0 2px;
+  color: var(--color-secundario);
 }
+
 .left .content .social a span{
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: var(--color-6);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -254,8 +271,9 @@ footer{
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: #f12020;
+  background: var(--color-7);
 }
+/* ICONOS DE REDES SOCIALES */
 
 /* ICONOS DE TELEFONO, UBICACION Y MENSAJE */
 .center .content .fas{
@@ -269,11 +287,11 @@ footer{
   transition: 0.3s;
   cursor: pointer;
 }
-/* ICONOS DE TELEFONO, UBICACION Y MENSAJE */
 
 .center .content .fas:hover{
-  background: #f12020;
+  background: var(--color-7);
 }
+
 .center .content .text{
   font-size: 1.0625rem;
   font-weight: 500;
@@ -282,6 +300,8 @@ footer{
 .center .content .phone{
   margin: 15px 0;
 }
+/* ICONOS DE TELEFONO, UBICACION Y MENSAJE */
+
 .right form .text{
   font-size: 1.0625rem;
   margin-bottom: 2px;
@@ -290,13 +310,19 @@ footer{
 .right form .msg{
   margin-top: 10px;
 }
+
+/* ENTRADA DE TEXTO Y AREA DE TEXTO */
+
 .right form input, .right form textarea{
   width: 100%;
   font-size: 1.0625rem;
   background: #151515;
   padding-left: 10px;
   border: 1px solid #222222;
+  color: var(--color-secundario);
 }
+/* ENTRADA DE TEXTO Y AREA DE TEXTO */
+
 .right form input:focus,
 .right form textarea:focus{
   outline-color: #3498db;
@@ -320,7 +346,7 @@ footer{
   border-radius: 5px;
 }
 .right form .btn button:hover{
-  background: #000;
+  background: var(--color-7);
 }
 .bottom center{
   padding: 5px;

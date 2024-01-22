@@ -1,0 +1,16 @@
+
+
+.card{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 650px;
+}
+
+.card .card-body h5{
+    font-size: 2rem;
+}
+
+.card .card-body span{
+    margin: 0px 10px 0px 10px;
+}
