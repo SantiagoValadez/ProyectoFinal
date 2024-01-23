@@ -11,10 +11,9 @@
 .card{
     display: flex;
     margin: 0 auto;
-    align-items: center;
     padding-top: 300px;
     padding-bottom: 150px;
-    width: 1000px;
+    width: 880px;
     align-content: center;
 }
 
