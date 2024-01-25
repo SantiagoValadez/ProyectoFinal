@@ -131,6 +131,10 @@ nav{
   
   /* CAROUSEL */
 
+  #carouselExampleCaptions{
+    padding-top: 200px;
+  }
+
   .carousel-inner .carousel-items img{
     opacity: .1;
   }
