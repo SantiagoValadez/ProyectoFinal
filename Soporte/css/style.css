@@ -11,9 +11,9 @@
 .card{
     display: flex;
     margin: 0 auto;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 150px;
-    width: 880px;
+    width: auto;
     align-content: center;
 }
 
@@ -29,3 +29,4 @@
 .card .row .col-md-4 img{
     border-radius: 15px;
 }
+

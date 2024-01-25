@@ -3,3 +3,7 @@
     transition: 0.5s;
     cursor: pointer;
 }
+
+.card-group{
+    padding-top: 200px;
+}
