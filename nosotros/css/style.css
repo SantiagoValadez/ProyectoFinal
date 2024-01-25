@@ -1,3 +1,10 @@
-.acerca-de{
-    margin-top: 200px;
+.acerca-de .mision{
+    padding-top: 200px;
+}
+.acerca-de .vision{
+    padding-top: 50px;
+}
+
+.acerca-de .vision img{
+    padding-top: 300px;
 }
