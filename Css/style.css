@@ -649,7 +649,7 @@ nav{
 }
 .right form .btn button{
   height: 40px;
-  width: 100%;
+  width: 80px;
   border: none;
   outline: none;
   background: var(--color-terciario);
@@ -659,6 +659,7 @@ nav{
   transition: .3s;
   border-radius: 5px;
 }
+
 .right form .btn button:hover{
   background: var(--color-7);
 }
